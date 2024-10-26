@@ -1,0 +1,366 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start card all */
+.card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.card .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* bast background-color 
+background-color: #15212d;
+
+
+
+*/
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 1 */
+
+.card-1 {
+    font-family: system-ui;
+    background: #b7b7ff;
+    color: #fff;
+}
+
+.card-1 .container {
+    display: grid;
+    place-items: center;
+}
+
+.card-1 #main {
+    background-image: url("../img/card1/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    width: 20vmax;
+    height: 30vmax;
+    position: relative;
+    transition: var(--main-transition);
+    border-radius: 2vmin;
+    -webkit-border-radius: 2vmin;
+    -moz-border-radius: 2vmin;
+    -ms-border-radius: 2vmin;
+    -o-border-radius: 2vmin;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.card-1 #main:hover {
+    background-image: linear-gradient(#0000, #111), url("../img/card1/bg.png");
+    background-size: 110% 110%;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.card-1 #main:hover #text_holder {
+    display: block;
+    animation: c1resize 1s ease-in-out forwards;
+}
+
+.card-1 #main #text_holder {
+    background: #292a38;
+    padding: 2vmin;
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    position: absolute;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+}
+
+.card-1 #main #text_holder:hover {
+    display: block;
+    animation: c1resize 1s ease-in-out forwards;
+    -webkit-animation: c1resize 1s ease-in-out forwards;
+}
+
+@keyframes c1resize {
+    99% {
+        height: 55%;
+        overflow: hidden;
+    }
+
+    100% {
+        overflow: visible;
+        height: 55%;
+    }
+}
+
+.card-1 #main #header {
+    text-transform: capitalize;
+    background: #42445a;
+    padding: 1vmin;
+    position: relative;
+    left: -5.25vmin;
+    height: 7vmin;
+    font-size: 3.5vmin;
+    padding-left: 5.25vmin;
+    margin-bottom: 3.5vmin;
+    transition: var(--main-transition);
+    border-radius: 10vmax;
+    -webkit-border-radius: 10vmax;
+    -moz-border-radius: 10vmax;
+    -ms-border-radius: 10vmax;
+    -o-border-radius: 10vmax;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.card-1 #main #header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7vmin;
+    height: 7vmin;
+    width: 3.5vmin;
+    background: #232334;
+    border-top-left-radius: 10vmax;
+    border-bottom-left-radius: 10vmax;
+}
+
+.card-1 #main #header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3.5vmin;
+    background: #42445a;
+    height: 7vmin;
+    width: 3.5vmin;
+}
+
+.card-1 #main #btn {
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    background: #42445a;
+    color: #fff;
+    width: 100%;
+    padding: 2vmin 1vmin;
+    font-size: 2vmin;
+    margin-top: 2vmin;
+    margin-bottom: 1vmin;
+    cursor: pointer;
+    border-radius: 2vmin;
+    -webkit-border-radius: 2vmin;
+    -moz-border-radius: 2vmin;
+    -ms-border-radius: 2vmin;
+    -o-border-radius: 2vmin;
+}
+
+
+
+
+/* end card 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 2 */
+
+
+
+/* end card 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 3 */
+
+
+
+/* end card 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 4 */
+
+
+
+/* end card 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 5 */
+
+
+
+/* end card 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 6 */
+
+
+
+/* end card 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 7 */
+
+
+
+/* end card 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 8 */
+
+
+
+/* end card 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 9 */
+
+
+
+/* end card 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 10 */
+
+
+
+/* end card 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start card 11 */
+
+
+
+/* end card 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
